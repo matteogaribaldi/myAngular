@@ -1,0 +1,27 @@
+<p>portfoliolist works!</p>
+<div class='table-responsive'>
+    <table class='table'
+           *ngIf="portfolioList">
+        <thead>
+           <tr>
+            <th>Portfolio Code</th>
+            <th>Portfolio Name</th>
+            <th>Creation Date</th>
+            <th>Starting Value</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let portfolio of portfolioList'>
+            <td>
+              <a [routerLink]="['/portfolio', portfolio.portfolioId]">
+                {{ portfolio.portfolioName }}
+              </a>
+            </td>
+            <td>{{ portfolio.description }}</td>
+            <td>{{ portfolio.createDate }}</td>
+            <td>{{ portfolio.startValue | currency:'USD':'symbol':'1.2-2' }}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>

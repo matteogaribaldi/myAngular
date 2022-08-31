@@ -1,0 +1,37 @@
+[
+    {
+      "portfolioId": 1,
+      "portfolioName": "Leaf Rake",
+      "createDate": "March 19, 2021",
+      "description": "Leaf rake with 48-inch wooden handle.",
+      "startValue": 19.95
+    },
+    {
+      "portfolioId": 2,
+      "portfolioName": "Garden Cart",
+      "createDate": "March 18, 2021",
+      "description": "15 gallon capacity rolling garden cart",
+      "startValue": 32.99
+    },
+    {
+      "portfolioId": 5,
+      "portfolioName": "Hammer",
+      "createDate": "May 21, 2021",
+      "description": "Curved claw steel hammer",
+      "startValue": 8.9
+    },
+    {
+      "portfolioId": 8,
+      "portfolioName": "Saw",
+      "createDate": "May 15, 2021",
+      "description": "15-inch steel blade hand saw",
+      "startValue": 11.55
+    },
+    {
+      "portfolioId": 10,
+      "portfolioName": "Video Game Controller",
+      "createDate": "October 15, 2020",
+      "description": "Standard two-button video game controller",
+      "startValue": 35.95
+    }
+  ]
