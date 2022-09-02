@@ -10,24 +10,17 @@ import { IPortfolio } from './portfolio';
 })
 export class PortfoliolistComponent implements OnInit {
 
-  portfolioList: IPortfolio[] = [];
   portfolios$: Observable<IPortfolio[]> | undefined;
   private errorMessageSubject = new Subject<string>();
   sub!: Subscription;
-  errorMessage = '';
+
 
   constructor(private portfolioService: PortfolioService) { }
 
   // 
   
   ngOnInit(): void {
-    this.portfolios$ = this.portfolioService.getPortfolios()
-    .pipe(
-      catchError(err => {
-        this.errorMessageSubject.next(err);
-        return EMPTY;
-      })
-    )
+    this.portfolios$ = this.portfolioService.getPortfolios();
   }
 
 }

@@ -18,9 +18,11 @@ export class PortfolioService {
   getPortfolios(): Observable<IPortfolio[]> {
     return this.http.get<IPortfolio[]>(this.portfolioUrl)
       .pipe(
-        tap(data => console.log('All portfolios: ', JSON.stringify(data))),
+        tap(data => {
+        console.log('All portfolios: ', JSON.stringify(data));
+        console.log(data)},
         catchError(this.handleError)
-      );
+      ));
   }
 
   // Get one portfolio

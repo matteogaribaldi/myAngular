@@ -1,37 +1,37 @@
 [
     {
       "portfolioId": 1,
-      "portfolioName": "Leaf Rake",
+      "portfolioName": "Ray Dalio All Weather portfolio",
       "createDate": "March 19, 2021",
       "description": "Leaf rake with 48-inch wooden handle.",
-      "startValue": 19.95
+      "startValue": 1900.95
     },
     {
       "portfolioId": 2,
-      "portfolioName": "Garden Cart",
+      "portfolioName": "Neapolitan Portfolio",
       "createDate": "March 18, 2021",
       "description": "15 gallon capacity rolling garden cart",
-      "startValue": 32.99
+      "startValue": 3200.99
     },
     {
       "portfolioId": 5,
-      "portfolioName": "Hammer",
+      "portfolioName": "Sample retirement portfolio",
       "createDate": "May 21, 2021",
       "description": "Curved claw steel hammer",
-      "startValue": 8.9
+      "startValue": 8000.9
     },
     {
       "portfolioId": 8,
-      "portfolioName": "Saw",
+      "portfolioName": "Ben Felix model",
       "createDate": "May 15, 2021",
       "description": "15-inch steel blade hand saw",
-      "startValue": 11.55
+      "startValue": 1100.55
     },
     {
       "portfolioId": 10,
-      "portfolioName": "Video Game Controller",
+      "portfolioName": "Bernstein No brainer",
       "createDate": "October 15, 2020",
       "description": "Standard two-button video game controller",
-      "startValue": 35.95
+      "startValue": 35000.95
     }
   ]
