@@ -1,4 +1,8 @@
-<p>portfoliolist works!</p>
+<div class='card'>
+  <div class='card-header'>
+    List of portfolios
+  </div>
+  <div class='card-body'>
 <div class='table-responsive'>
     <table class='table'
            *ngIf="portfolios$ | async as portfolios">
@@ -27,3 +31,5 @@
         </tbody>
     </table>
 </div>
+</div>
+
